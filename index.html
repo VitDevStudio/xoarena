@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+
+  <title>Privacy Policy — XO Arena</title>
+  <meta name="description" content="Privacy Policy for XO Arena by VitDevStudio. Learn how the app handles user data and privacy.">
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #080d19;
+      --panel: #10192b;
+      --text: #edf2ff;
+      --muted: #a4b0c8;
+      --accent: #72a7ff;
+      --border: rgba(255, 255, 255, 0.09);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(ellipse at 50% 0%, #18284b 0%, transparent 55%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 64px 0 38px;
+      text-align: center;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      border-radius: 20px;
+      margin-bottom: 18px;
+      background: linear-gradient(135deg, #72a7ff, #826bff);
+      color: #081020;
+      font-size: 27px;
+      font-weight: 900;
+      letter-spacing: -2px;
+      box-shadow: 0 10px 35px rgba(87, 120, 255, 0.2);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 6vw, 48px);
+      line-height: 1.2;
+      letter-spacing: -1.5px;
+    }
+
+    .subtitle {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 25px;
+    }
+
+    .tag {
+      padding: 7px 13px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.04);
+      color: #c8d5ed;
+      font-size: 13px;
+    }
+
+    main {
+      padding-bottom: 60px;
+    }
+
+    .notice {
+      padding: 22px 24px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(114, 167, 255, 0.2);
+      border-radius: 18px;
+      background: rgba(114, 167, 255, 0.07);
+    }
+
+    .notice strong {
+      display: block;
+      margin-bottom: 5px;
+      color: #a9c8ff;
+      font-size: 16px;
+    }
+
+    .notice p {
+      margin: 0;
+      color: #d1dcf0;
+    }
+
+    .policy {
+      padding: 30px;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: rgba(16, 25, 43, 0.88);
+      box-shadow: 0 20px 70px rgba(0, 0, 0, 0.12);
+    }
+
+    section {
+      scroll-margin-top: 24px;
+    }
+
+    section + section {
+      margin-top: 32px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 21px;
+      line-height: 1.4;
+      letter-spacing: -0.3px;
+    }
+
+    p {
+      margin: 0 0 14px;
+      color: #c2cde0;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      padding-left: 22px;
+      margin: 12px 0;
+      color: #c2cde0;
+    }
+
+    li {
+      padding-left: 4px;
+      margin-bottom: 7px;
+    }
+
+    .contact-card {
+      margin-top: 18px;
+      padding: 20px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.025);
+    }
+
+    .contact-name {
+      color: var(--text);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    footer {
+      padding: 26px 0 38px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: #8794ac;
+      font-size: 13px;
+    }
+
+    footer p {
+      margin: 5px 0;
+      color: inherit;
+      font-size: inherit;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding-top: 44px;
+      }
+
+      .policy {
+        padding: 22px 18px;
+        border-radius: 17px;
+      }
+
+      .notice {
+        padding: 18px;
+      }
+
+      h2 {
+        font-size: 19px;
+      }
+    }
+
+    @media print {
+      :root {
+        color-scheme: light;
+        --text: #111;
+        --muted: #555;
+        --border: #ddd;
+      }
+
+      body {
+        background: #fff;
+        color: #111;
+      }
+
+      .policy,
+      .notice {
+        background: #fff;
+        box-shadow: none;
+      }
+
+      p, ul, .notice p {
+        color: #333;
+      }
+
+      a {
+        color: #174ea6;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="container">
+    <div class="logo" aria-label="XO Arena">XO</div>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Your privacy matters to us.</p>
+
+    <div class="meta">
+      <span class="tag">App: XO Arena</span>
+      <span class="tag">Developer: VitDevStudio</span>
+      <span class="tag">Effective date: October 11, 2026</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="notice">
+      <strong>Privacy-first approach</strong>
+      <p>
+        XO Arena does not collect, store, or transmit user data through
+        the app, according to the developer's stated privacy practices.
+      </p>
+    </div>
+
+    <article class="policy">
+      <section id="introduction">
+        <h2>1. Introduction</h2>
+        <p>
+          This Privacy Policy explains the privacy practices of XO Arena
+          (“the App”), provided by VitDevStudio (“we,” “us,” or “our”).
+        </p>
+      </section>
+
+      <section id="collection">
+        <h2>2. Information Collection and Use</h2>
+        <p>
+          The App does not collect, store, or transmit any user data,
+          including personal information or sensitive user data.
+        </p>
+        <p>We do not collect through the App:</p>
+        <ul>
+          <li>Names, email addresses, or phone numbers</li>
+          <li>Location information or contacts</li>
+          <li>Photos or other personal files</li>
+          <li>Device identifiers or advertising identifiers</li>
+          <li>Usage analytics or crash reports</li>
+        </ul>
+      </section>
+
+      <section id="sharing">
+        <h2>3. Data Sharing</h2>
+        <p>
+          The App does not sell, share, disclose, or transfer user data
+          to the developer, advertisers, analytics providers, or any
+          other third parties.
+        </p>
+        <p>
+          The App does not use third-party services or SDKs that collect,
+          store, or transmit user data.
+        </p>
+      </section>
+
+      <section id="children">
+        <h2>4. Children's Privacy</h2>
+        <p>
+          Our privacy practices apply equally to all users, including
+          children under the age of 13 and children under any other
+          applicable age threshold.
+        </p>
+        <p>
+          The App does not collect, store, use, or share personal
+          information from children. It does not track or profile
+          children or collect their information for advertising purposes.
+        </p>
+        <p>
+          Parents and guardians may contact us using the email address
+          below if they have questions about children's privacy.
+        </p>
+      </section>
+
+      <section id="retention">
+        <h2>5. Data Retention and Deletion</h2>
+        <p>
+          Because the App does not collect or store user data, there is
+          no user data retained by the App or on our servers to access,
+          correct, or delete.
+        </p>
+      </section>
+
+      <section id="email">
+        <h2>6. Contacting Us</h2>
+        <p>
+          If you choose to contact us by email, we will receive your
+          email address and any information you include in your message.
+          This information is provided voluntarily outside the App and
+          will be used only to respond to your inquiry.
+        </p>
+        <p>
+          It will be retained only as long as necessary to handle that
+          inquiry or meet applicable legal obligations.
+        </p>
+        <p>
+          Please do not include sensitive personal information in your
+          message.
+        </p>
+      </section>
+
+      <section id="scope">
+        <h2>7. Scope of This Policy</h2>
+        <p>
+          This Privacy Policy applies to XO Arena. Google Play, the
+          Android operating system, and other services you use
+          independently may process information under their own
+          privacy policies.
+        </p>
+      </section>
+
+      <section id="changes">
+        <h2>8. Changes to This Policy</h2>
+        <p>
+          We may update this Privacy Policy to reflect changes to the
+          App or our privacy practices. Any changes will be published
+          on this page with an updated effective date.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>9. Contact</h2>
+        <p>
+          For questions about this Privacy Policy, please contact:
+        </p>
+
+        <div class="contact-card">
+          <div class="contact-name">VitDevStudio</div>
+          <p>
+            Email:
+            <a href="mailto:vitdevstudio@gmail.com">
+              vitdevstudio@gmail.com
+            </a>
+          </p>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="container">
+    <p>© 2026 VitDevStudio. All rights reserved.</p>
+    <p>XO Arena · Privacy Policy</p>
+  </footer>
+</body>
+</html>
